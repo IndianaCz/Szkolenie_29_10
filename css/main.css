@@ -1,5 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap";
-.nav {
+.best .best-card, .nav {
   backdrop-filter: blur(10px) saturate(132%);
   -webkit-backdrop-filter: blur(10px) saturate(132%);
   background-color: rgba(255, 255, 255, 0.56);
@@ -57,4 +56,82 @@ a {
   border: none;
   color: white;
   background-color: rgba(255, 255, 255, 0.56);
+}
+
+.banner {
+  padding: 14px 45px;
+  color: white;
+}
+.banner .banner-title {
+  font-size: 46px;
+}
+.banner .banner-subtitle {
+  font-size: 28px;
+  font-weight: 300;
+}
+.banner .banner-btn {
+  width: 160px;
+  padding: 12px 0;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.banner .banner-btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+
+.best {
+  margin: 50px 0;
+  padding: 14px 45px;
+}
+.best .best-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.best .best-title {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin: 15px 0;
+}
+.best .best-card {
+  text-align: center;
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.best .best-card:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-20px);
+}
+.best .best-card:hover > img {
+  border-color: black;
+}
+.best .best-card > img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 20px;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+.best .best-card .card-desc {
+  margin: 0 auto;
+  font-weight: 300px;
+  opacity: 0.6;
+}
+.best .best-card .card-btn {
+  padding: 6px 10px;
+  margin: 15px 0;
+  color: white;
+  background-color: rgba(3, 17, 77, 0.562);
+  border-radius: 20px;
+  border: 1px solid white;
 }/*# sourceMappingURL=main.css.map */
