@@ -1,0 +1,43 @@
+.pricing {
+    margin: 50px 0;
+    padding: 14px 45px;
+    .pricing-wrapper {
+        @include flex(center,center,20px);
+    }
+}
+.pricing-card {
+    @extend %glass;
+        text-align: center;
+        flex: 1;
+        padding: 30px;
+        border-radius: 10px;
+        .price_week {
+            font-size: 62px;
+        
+        }
+        .price_week_secondary {
+            font-size:30px;
+           
+        }
+        .pricing_details {
+            text-align: left;
+            padding: 10px;
+        }
+        .price_btn {
+            font-size: 26px;
+            padding: 6px 10px;
+            margin: 15px 0;
+            color: $color-white;
+            background-color: rgba(3, 17, 77, 0.562);
+            border-radius: 20px;
+            border: 1px solid white;
+        }
+
+}
+.pricing_offer {
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    margin: 15px 0;
+}
+

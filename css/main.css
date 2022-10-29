@@ -1,4 +1,4 @@
-.best .best-card, .nav {
+.pricing-card, .best .best-card, .nav {
   backdrop-filter: blur(10px) saturate(132%);
   -webkit-backdrop-filter: blur(10px) saturate(132%);
   background-color: rgba(255, 255, 255, 0.56);
@@ -97,7 +97,7 @@ a {
 .best .best-title {
   text-align: center;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   margin: 15px 0;
 }
 .best .best-card {
@@ -134,4 +134,48 @@ a {
   background-color: rgba(3, 17, 77, 0.562);
   border-radius: 20px;
   border: 1px solid white;
+}
+
+.pricing {
+  margin: 50px 0;
+  padding: 14px 45px;
+}
+.pricing .pricing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing-card {
+  text-align: center;
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+}
+.pricing-card .price_week {
+  font-size: 62px;
+}
+.pricing-card .price_week_secondary {
+  font-size: 30px;
+}
+.pricing-card .pricing_details {
+  text-align: left;
+  padding: 10px;
+}
+.pricing-card .price_btn {
+  font-size: 26px;
+  padding: 6px 10px;
+  margin: 15px 0;
+  color: white;
+  background-color: rgba(3, 17, 77, 0.562);
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.pricing_offer {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  margin: 15px 0;
 }/*# sourceMappingURL=main.css.map */
