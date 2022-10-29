@@ -1,20 +1,60 @@
-.product {
-  background-color: gold;
-  padding: 10px;
+@import "https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap";
+.nav {
+  backdrop-filter: blur(10px) saturate(132%);
+  -webkit-backdrop-filter: blur(10px) saturate(132%);
+  background-color: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
-.product__title {
-  color: blueviolet;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.product__desc {
-  color: red;
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Prompt", sans-serif;
+  min-height: 1026px;
 }
-.product__button {
-  border: 2px solid red;
-  border-radius: 20px;
+
+ul {
+  list-style: none;
 }
-.product__button--buy {
-  background-color: green;
+
+a {
+  text-decoration: none;
+  color: white;
 }
-.product__button--cancel {
-  background-color: orange;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 14px 45px;
+  color: white;
+}
+.nav > i {
+  font-size: 32px;
+}
+.nav .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav button {
+  padding: 6px 12px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.56);
 }/*# sourceMappingURL=main.css.map */

@@ -1,22 +1,6 @@
-
-.product {
-    background-color: gold;
-    padding: 10px;
-    &__title {
-        color: blueviolet;
-    }
-    &__desc {
-        color: red;
-    }
-    &__button {
-        border: 2px solid red;
-        border-radius: 20px;
-        &--buy {
-            background-color: green;
-        }
-        &--cancel {
-            background-color: orange;
-        }
-    }
-}
-
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_extends.scss";
+@import "_resets.scss";
+@import "_header.scss";
+@import "https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap";
